@@ -1,6 +1,18 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    background-color:#FFF8F3; 
+    background-image: url("/images/header_bg.png");
+    background-repeat:no-repeat;
+    background-position: bottom right;
+    /* height: 100vh; */
 }
 
 
@@ -8,6 +20,9 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 .nav-title{
@@ -40,4 +55,105 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
+}
+
+
+.banner{
+    width: 90vw;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 100%; */
+    padding-top: 50px;
+}
+
+.banner>div>h3{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner>div>h1{
+    color: black;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner>div>p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.download-btn{
+    width: 200px;
+    height: 64px;
+    background-color: #FD6E0A;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.contact-btn{
+    margin-left: 25px;
+    width: 180px;
+    height: 64px;
+    background-color: white;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.profile-pic{
+    width: 500px;
+    display: flex;
+    /* margin-bottom: -12px; */
+}
+.profile-pic >img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    background-color:#FFF8F3; 
+    margin-top: 150px;
+    text-align: center;
+    padding: 130px;
+}
+.about>h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+.about>p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.about-inf>h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.about-inf>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #474747;
 }
